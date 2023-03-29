@@ -11,10 +11,16 @@
             "email": "info@endroid.nl"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/schuettflix/qr-code.git"
+        }
+    ],
     "require": {
         "php": "^8.0",
         "endroid/installer": "^1.2.2",
-        "endroid/qr-code": "^4.8.1",
+        "schuettflix/qr-code": "dev-feat/make-eci-prefix-configurable",
         "symfony/framework-bundle": "^5.4||^6.0",
         "symfony/twig-bundle": "^5.4||^6.0",
         "symfony/yaml": "^5.4||^6.0"
