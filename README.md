@@ -48,6 +48,9 @@ endroid_qr_code:
         labelFontPath: '%kernel.project_dir%/vendor/endroid/qr-code/assets/noto_sans.otf'
         labelFontSize: 20
         labelAlignment: 'center'
+        # By default, encoding with UTF-8 will append an ECI block to your data. 
+        # If you don't want this prefix, please configure this value to false
+        prefixEci: false
     custom:
         writer: Endroid\QrCode\Writer\SvgWriter
         writerOptions:
